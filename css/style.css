@@ -1,6 +1,7 @@
 body{
     width: 960px;
-    background-image: url(../images/old_wall.png)
+    background-image: url("../images/old_wall.png");
+    font-family: 'arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 header::after{
@@ -14,19 +15,44 @@ h1{
     border-color: #cccccc;
     background-color: #4aaaa5;
     float: left;
+
+}
+
+h1, h2, h3{
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
 }
 
 .nav{
     float: right;
 }
 
+.bio{
+    font-size: 18px;
+}
+
+.pic-personal{
+    width: 200px;
+    float: left;
+}
+
 section{
     float: left;
     background-color: #ffffff;
     border-color: #dddddd;
+    width: 100%;
+}
+
+.image-tile{
+    float: left;
+    width: 200px;
+
+}
+
+.image-label{
+
 }
 
 footer{
     background-color: #666666;
-    float: left;
+    display: block;
 }
