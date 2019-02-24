@@ -1,8 +1,32 @@
 body{
     width: 960px;
-
+    background-image: url(../images/old_wall.png)
 }
 
-header{
+header::after{
+    content: "";
+    display: block;
+    clear: both;
+}
 
+h1{
+    background-color: #ffffff;
+    border-color: #cccccc;
+    background-color: #4aaaa5;
+    float: left;
+}
+
+.nav{
+    float: right;
+}
+
+section{
+    float: left;
+    background-color: #ffffff;
+    border-color: #dddddd;
+}
+
+footer{
+    background-color: #666666;
+    float: left;
 }
