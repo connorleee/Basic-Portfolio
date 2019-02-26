@@ -1,7 +1,7 @@
 body{
-    width: 960px;
     background-image: url("../images/old_wall.png");
     font-family: 'arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin: 0 auto;
 }
 
 header::after{
@@ -10,12 +10,23 @@ header::after{
     clear: both;
 }
 
+header{
+    background-color:#ffffff;
+    width: 100%;
+}
+
 h1{
     background-color: #ffffff;
     border-color: #cccccc;
     background-color: #4aaaa5;
     float: left;
+    padding: 30px;
+    margin: 0px;
+    color: #ffffff;
+}
 
+h2{
+    color: #4aaaa5;
 }
 
 h1, h2, h3{
@@ -24,6 +35,7 @@ h1, h2, h3{
 
 .nav{
     float: right;
+    margin: 30px;
 }
 
 .bio{
@@ -35,11 +47,24 @@ h1, h2, h3{
     float: left;
 }
 
+hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 section{
+    width: 960px;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
     float: left;
     background-color: #ffffff;
     border-color: #dddddd;
-    width: 100%;
+    border-width: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
 }
 
 .image-tile{
@@ -54,5 +79,7 @@ section{
 
 footer{
     background-color: #666666;
-    display: block;
+    display: inline-block;
+    margin-top: 10px;
+    text-align: center;    
 }
