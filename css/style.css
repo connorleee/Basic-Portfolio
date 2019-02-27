@@ -13,6 +13,14 @@ header::after{
 header{
     background-color:#ffffff;
     width: 100%;
+    border-bottom-width: 5px;
+    border-color: #777777;
+    margin-bottom: 30px;
+}
+
+.nav-container{
+    width: 960px;
+    margin: 0 auto;
 }
 
 h1{
@@ -45,6 +53,8 @@ h1, h2, h3{
 .pic-personal{
     width: 200px;
     float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 
 hr{
@@ -54,17 +64,15 @@ hr{
 
 section{
     width: 960px;
-    margin-left: 0 auto;
-    margin-right: 0 auto;
-    margin-top: 30px;
-    margin-bottom: 50px;
-    float: left;
+    display: block;
+    margin: 0 auto;
     background-color: #ffffff;
     border-color: #dddddd;
     border-width: 1px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
+}
+
+.subsection{
+    padding: 20px;
 }
 
 .image-tile{
@@ -79,7 +87,11 @@ section{
 
 footer{
     background-color: #666666;
-    display: inline-block;
     margin-top: 10px;
-    text-align: center;    
+    text-align: center; 
+    vertical-align: bottom;  
+    /* padding-top: 30px;
+    padding-bottom: 5px;  */
+    color: #ffffff;
+    font-size: 12px;
 }
