@@ -85,9 +85,43 @@ section{
 }
 
 .image-tile{
-    float: left;
-    width: 200px;
+    width: 33.33%;
+    margin: 0px;
+}
 
+.music-tile{
+    position: relative;
+    float: left;
+}
+
+.photography-tile{
+    position: relative;   
+    float: left; 
+}
+
+.racing-cars-tile{
+    position: relative;
+}
+
+.pet-tile{
+    position: relative;
+}
+
+.game-tile{
+    position: relative;    
+}
+
+.image-label{
+    background-color: #4aaaa5;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0px;
+    text-align: center;
+    position: absolute;
+    bottom: 10px;
+    width: 33.33%;
+    color: #ffffff;
+    font-size: 16px;
 }
 
 footer{
