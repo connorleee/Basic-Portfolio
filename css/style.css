@@ -1,3 +1,7 @@
+html{
+    height: 100vh;
+}
+
 body{
     background-image: url("../images/old_wall.png");
     font-family: 'arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -44,6 +48,7 @@ h1, h2, h3{
 .nav{
     float: right;
     margin: 30px;
+
 }
 
 .bio-body{
@@ -78,7 +83,7 @@ section{
     background-color: #ffffff;
     border-color: #dddddd;
     border-width: 1px;
-}
+ }
 
 .subsection{
     padding: 20px;
@@ -110,14 +115,51 @@ section{
     font-size: 16px;
 }
 
+form{
+    font-family: 'arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+
+input{
+    margin-bottom: 10px;
+}
+
+.textbox{
+    width: 100%;
+    border-color: #cccccc;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.msg{
+    height: 200px;
+}
+
+.btn{
+    background-color: #4aaaa5;
+    border-width: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #ffffff;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.push, .footer{
+    height: 60px;
+}
+
 footer{
     background-color: #666666;
     margin-top: 75px;
     text-align: center; 
     vertical-align: bottom;  
-    color: #ffffff;
+    color: #cccccc;
     font-size: 12px;
     padding-top: 30px;
+    padding-bottom: 5px;
     border-style: solid;
     border-top-width: 10px;
     border-left-width: 0px;
