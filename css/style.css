@@ -46,15 +46,24 @@ h1, h2, h3{
     margin: 30px;
 }
 
+.bio-body{
+    line-height: 28px;
+}
+
 .bio{
     font-size: 18px;
+    line-height: 24px;
 }
 
 .pic-personal{
-    width: 200px;
+    width: 150px;
     float: left;
     margin-right: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
+}
+
+ul{
+    margin-left: 0px;
 }
 
 hr{
@@ -81,17 +90,18 @@ section{
 
 }
 
-.image-label{
-
-}
-
 footer{
     background-color: #666666;
-    margin-top: 10px;
+    margin-top: 75px;
     text-align: center; 
     vertical-align: bottom;  
-    /* padding-top: 30px;
-    padding-bottom: 5px;  */
     color: #ffffff;
     font-size: 12px;
+    padding-top: 30px;
+    border-style: solid;
+    border-top-width: 10px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-color: #4aaaa5;
 }
