@@ -1,12 +1,8 @@
-html{
-    height: 100vh;
-}
-
 body{
     background-image: url("../images/old_wall.png");
     font-family: 'arial', 'Helvetica Neue', Helvetica, sans-serif;
     margin: 0 auto;
-}
+ }
 
 header::after{
     content: "";
