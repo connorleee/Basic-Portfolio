@@ -1,3 +1,7 @@
+html {
+    overflow-y: scroll;
+}
+
 body{
     background-image: url("../images/old_wall.png");
     font-family: 'arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -43,8 +47,12 @@ h1, h2, h3{
 
 .nav{
     float: right;
-    margin: 30px;
+    margin-top: 40px;
+    margin-right: 0px;
+}
 
+a{
+    text-decoration: none;
 }
 
 .bio-body{
@@ -61,10 +69,6 @@ h1, h2, h3{
     float: left;
     margin-right: 20px;
     margin-bottom: 0px;
-}
-
-ul{
-    margin-left: 0px;
 }
 
 hr{
